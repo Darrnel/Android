@@ -1,4 +1,4 @@
-package com.example.uzt.edzsterv.modell.Edzes;
+package com.example.uzt.edzsterv.modell.Edzes.Enum;
 
 public enum CombEnum {
     GUGGOLÁS("Guggolás"),

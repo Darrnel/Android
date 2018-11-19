@@ -1,4 +1,4 @@
-package com.example.uzt.edzsterv.modell.Edzes;
+package com.example.uzt.edzsterv.modell.Edzes.Enum;
 
 public enum VállEnum {
     VÁLLBÓL_NYOMÁS_SÚLYZÓVAL("Vállból nyomás súlyzóval"),

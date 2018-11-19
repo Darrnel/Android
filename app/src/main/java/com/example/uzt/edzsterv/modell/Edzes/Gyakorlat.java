@@ -1,5 +1,15 @@
 package com.example.uzt.edzsterv.modell.Edzes;
 
+import com.example.uzt.edzsterv.modell.Edzes.Enum.BicepszEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.CombEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.HasEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.HátEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.KardioEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.MellEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.TricepszEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.VádliEnum;
+import com.example.uzt.edzsterv.modell.Edzes.Enum.VállEnum;
+
 public class Gyakorlat {
 
 

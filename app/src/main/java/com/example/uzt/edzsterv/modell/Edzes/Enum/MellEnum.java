@@ -1,4 +1,4 @@
-package com.example.uzt.edzsterv.modell.Edzes;
+package com.example.uzt.edzsterv.modell.Edzes.Enum;
 
 public enum MellEnum {
     FEKVENYOMÁS_EGYENES_PADON("Fekvenyomás egyenes padon"),
