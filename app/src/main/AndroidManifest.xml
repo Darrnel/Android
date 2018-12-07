@@ -16,9 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.EdzestervMainActivity" />
-        <activity android:name=".activities.EdzestervSablonActivity" />
-        <activity android:name=".activities.EdzestervEgyeniActivity"></activity>
+        <activity android:name=".activities.edzesterv.EdzestervMainActivity" />
+        <activity android:name=".activities.edzesterv.EdzestervSablonActivity" />
+        <activity android:name=".activities.edzesterv.EdzestervEgyeniActivity" />
+        <activity android:name=".activities.etrend.EtrendMainActivity" />
+        <activity android:name=".activities.etrend.EtrendEgyeniActivity" />
+        <activity android:name=".activities.etrend.EtrendSablonActivity"></activity>
     </application>
 
 </manifest>

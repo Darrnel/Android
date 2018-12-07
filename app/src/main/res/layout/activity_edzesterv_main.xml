@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.EdzestervMainActivity">
+    tools:context=".activities.edzesterv.EdzestervMainActivity">
 
     <EditText
         android:id="@+id/magassagText"
@@ -39,7 +39,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginLeft="12dp"
         android:layout_marginTop="20dp"
-        android:onClick="ttindexButton"
+        android:onClick="ttindexSzamolButton"
         android:text="Testtömeg index számolása"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,24 +60,26 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/egyeniEdzestervButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Egyedi edzésterv"
+        android:onClick="goToEgyeniEdzesterv"
+        android:text="Egyeni edzésterv"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/sablonEdzestervButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="goToSablonEdzesterv"
         android:text="Kész edzésterv"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
